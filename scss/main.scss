@@ -1,0 +1,59 @@
+@import "./imports/_normalize.scss";
+$font:    Helvetica, sans-serif;
+$primarycolor: #089479;
+
+*{ box-sizing: border-box }
+h2,h1{
+  color: $primarycolor;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+.images-logo-width{
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#app-container{
+}
+.images-logo{
+  background-color:#DFDFE0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.demo-01-inner-container{
+  max-width:85%;
+  margin: 5px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* para dar borde*/
+  padding: 10px;
+}
+.images-gallery{
+
+}
+.gallery{
+  margin: 10px auto;
+  max-width:100%;
+  padding: 10px;
+  border: solid 1px #DFDFE0;
+  border-radius: 10px;
+
+  @media screen and (min-width: 768px){
+    width:50%;
+  }
+
+  @media screen and (min-width: 1024px){
+    width:32%;
+  }
+
+
+}
